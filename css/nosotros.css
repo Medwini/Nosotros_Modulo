@@ -1,0 +1,247 @@
+.titulo{
+    width: 33.3%;
+}
+/*           --------------  HEADER  ----------------         */
+.site-h{
+    margin-bottom: 0;
+}
+
+header{
+    margin: 0 auto;
+}
+
+.barra{
+  margin-bottom: 0;
+}
+
+/*          -----------------  MAIN -------------------        */
+
+.Main__Nosotros {
+    position: relative;
+    display: block;
+    text-align: center;
+    align-items: center;
+    color: white;
+    background-image: url(../img/fondo-nosotros.jpg);
+    background-size: 200%;
+    animation: move-hist 15s infinite linear alternate;
+    width: 100%;
+    height: 55vh;
+    margin: 0 auto;
+  }
+  @keyframes move-hist{
+    from{
+      background-position: bottom left;
+    }to{
+      background-position: top right;
+    }
+  }
+  
+  .grad{
+    width: 100%;
+    height: 55vh;
+    position: relative;
+    background: -webkit-linear-gradient(right, black, firebrick);
+    opacity: 0.70;
+    max-height: 600px;
+  }
+
+  /*  ----------------  NOSOTROS  --------------------         */
+
+
+  .Main__Nosotros h3{
+    padding-top: 10rem;
+    width: 70%;
+    font-size: 5rem;
+    font-family: 'Crimson Pro', serif;
+    line-height: 1.5;
+    text-align: center;
+    display: inline;
+    font-weight: bold;
+    margin-bottom: 0;
+  }
+  .Nosotros_text{
+      text-align: center;
+      align-items: center;
+      margin: 0 auto;
+      font-family:'Oswald', sans-serif;
+      font-size: 1.5rem;
+      width: 60%;
+  }
+  @media only screen and (min-width:992px){
+    .Nosotros_text{
+      text-align: center;
+      align-items: center;
+      margin: auto;
+      font-family:'Oswald', sans-serif;
+      padding-top: 5rem;
+      font-size: 2rem;
+      width: 90%;
+  }
+  }
+  @media only screen and (min-width:768px){
+    .Nosotros_text{
+      text-align: center;
+      align-items: center;
+      margin: auto;
+      font-family:'Oswald', sans-serif;
+      padding-top: 5rem;
+      font-size: 2rem;
+      width: 90%;
+  }
+  }
+  @media only screen and (min-width:480px){
+    .Nosotros_text{
+      text-align: center;
+      align-items: center;
+      margin: auto;
+      font-family:'Oswald', sans-serif;
+      padding-top: 5rem;
+      font-size: 2rem;
+      width: 90%;
+  }
+  }
+
+
+  /*          -----------------    HISTORIA -----------------       */
+
+  .Historia_A {
+    width: 100%;
+    height: auto;
+    display: inline-block;
+    margin-top: 0;
+  }
+
+  .Historia_A h3{
+    text-align: center;
+    color: firebrick;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 60px;
+  }
+
+  .Hist__Art{
+    padding: 0px 20px 20px 20px;
+    position: relative;
+    overflow: hidden;
+  }
+  .art_hist{
+    padding-top: 20px;
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .Hist__Art p{
+    width: 70%;
+    font-size: 2.3rem;
+    font-family: 'Crimson Pro', serif;
+    line-height: 1.5;
+    text-align: center;
+    display: inline;
+    font-weight: bold;
+    padding: 50px;
+  }
+
+  
+
+ /*    -----------------  MISIÓN VISIÓN OBJETIVO  ---------------   */
+
+
+  .cont-mision{
+    position: absolute;
+  }
+
+  .con-nos{
+    position: relative;
+    overflow: hidden;
+    height: 62rem;
+    transition: all 0.8s ease;
+    font-size: 1.2rem;
+    padding: 2px;
+  }
+
+  .princ_obj{
+    position: absolute;
+    text-align: left; 
+  }
+  .oculto{
+    opacity: 0;
+    position: absolute;
+    height: 80rem;
+    background-color: white; 
+    transition: all 0.5s;
+    text-align: left;     
+  }
+  .oculto:hover{
+    transition: all 0.5s;
+    opacity: 1;
+  }
+
+
+
+ /*           ----------------  PROPÓSITO  -----------------        */
+
+
+  .h-prop{
+    text-align: center;
+    color: firebrick;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 60px;
+
+  }
+  .cont_v{
+      width: 100%;    
+      padding-top: 15px;
+  }
+
+  .cont_v video{
+    width: 100%;
+    height: 70vh;
+}
+
+/*  --------------------- JUNTA DIRECTIVA  -----------------------  */
+
+.junta_d{
+    align-items: center;
+    text-align: center;
+    padding-top: 20px;
+}
+.junta_d div{
+    width: 220px;
+    background-color: white;
+    border: 1px solid #e1e1e1;
+    display: inline-block;
+    align-items: center;
+    padding: 10px;
+    margin: 10px;
+  }
+  .junta_d img{
+    width: 100%;
+    max-width: 100%;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    margin: auto;
+    transition: all .5s;
+  }
+  
+  .junta_d img:hover{
+      transition: all .5s;
+    transform: scale(1.1);
+    box-shadow: 0px 0px 50px #666; 
+  }
+
+  .junta_d cite{
+    display: block;
+    text-align: center;
+    font-family: 'Style Script', cursive;
+    color: firebrick;
+    font-size: 3.2rem;
+  }
+  .junta_d span{
+    display: inline-block;
+    text-align: center;
+    font-family: 'Crimson Pro', serif;
+    color: black;
+    font-size: 20px;
+  }
